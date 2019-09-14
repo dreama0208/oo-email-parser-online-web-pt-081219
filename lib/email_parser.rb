@@ -10,7 +10,8 @@ class EmailAddressParser
   end
 
   def parse
-    @@list = emails.split(/,*\s*/)
+    @@list = emails.split(/,\s|\s/)
   end
 
 end
+s
